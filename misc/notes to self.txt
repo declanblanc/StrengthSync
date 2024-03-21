@@ -1,0 +1,7 @@
+Haven't had a chance to touch this project since January. Returning to it now I find that I am lost! (Shocker)
+I plan on continuing but first there are some things I should note to myself.
+
+1. Right now I have not figured out how to view my work using LiveServer, to see the webpages and have everything work, navigate in browser
+to http://localhost/public_html/index.php.
+
+2. I have uploaded "workoutApp" to GitHub from my desktop thinking it was this project. If this version is 0.00000002, that version was 0.00000001

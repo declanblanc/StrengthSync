@@ -1,0 +1,6 @@
+1. Display Exercise "table" 
+    -name
+    -sets
+    -reps
+    -weight
+    -notes(?)

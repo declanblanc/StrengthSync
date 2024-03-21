@@ -1,0 +1,92 @@
+.sad {
+  font-family: 'Bungee Spice', sans-serif;
+  text-align: center;
+  font-size: 70px;
+  margin: 50px;
+}
+
+.site_header {
+  font-weight: 900;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  /* padding-bottom: 5px; */
+  color:red;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.form-title {
+  padding: 20px;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type=text],input[type=password] {
+  padding:10px;
+  margin:10px;
+  border: 1px solid rgb(49, 49, 49);
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 50px;
+}
+
+input[type=text]:focus,input[type=password]:focus {
+  border:2px solid blue;
+}
+
+input[type=submit] {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 10px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 50px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  transition: 50ms;
+}
+
+input[type=submit]:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+
+
+.site-title {
+  font-size: 25px;
+  line-height: 30px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+.site-title:hover {
+  cursor: pointer;
+}
+
+
+
+.pagelink {
+  font-weight: 50;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  transition: all ease-in-out 250ms;
+}
+
+.pagelink:hover {
+  /* font-weight: 550; */
+  color: gray;
+  cursor: pointer;
+}
+
