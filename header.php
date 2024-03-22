@@ -12,17 +12,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <header class="site_header">
         <div class="site-title">
-            <a href="index.php"><h1>Account Creation Simulator 3000</h1></a>
+            <a href="index.php"><h1>Strength Sync</h1></a>
         </div>
         <nav>
             <ul class="header-buttons">
-                <a href="index.php" class='pagelink'>Home</a>
+                <a href="index.php" class="pagelink sarabun-regular">Home</a>
                 <a href="about.php" class='pagelink'>What is this?</a>
                 <?php
                     if(isset($_SESSION["useruid"])) {
